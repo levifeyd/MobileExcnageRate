@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash">Splash</string>
+    <string name="name">Название:</string>
+    <string name="buy">Закупка:</string>
+    <string name="sale">Продажа:</string>
+    <string name="usd">USD</string>
+    <string name="_26_15">26.15</string>
+    <string name="_26_55">26.55</string>
+    <string name="second">Second</string>
+    <string name="start">Start</string>
+</resources>
