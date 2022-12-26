@@ -1,7 +1,7 @@
 package android.example.myapplication.screens.start
 
 import android.annotation.SuppressLint
-import android.example.myapplication.Model.nalichka.NalichkaItem
+import android.example.myapplication.Model.nalichka.NalItem
 import android.example.myapplication.R
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.item_money_layout.view.*
 
 class StartAdapter : RecyclerView.Adapter<StartAdapter.StartViewHolder>(){
 
-    var listStart = emptyList<NalichkaItem>()
+    var listStart = emptyList<NalItem>()
     class StartViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StartViewHolder {
@@ -31,7 +31,7 @@ class StartAdapter : RecyclerView.Adapter<StartAdapter.StartViewHolder>(){
     }
 
     @SuppressLint("NotifyDataSetChanged")
-    fun setList(list: List<NalichkaItem>) {
+    fun setList(list: List<NalItem>) {
         listStart = list
         notifyDataSetChanged()
     }
