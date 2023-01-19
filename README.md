@@ -1,2 +1,2 @@
 # MobileExcnageRate
-Mobile app help to know about exchsnge rate from Privat Bank.
+Мобильное прилоежние , которое помоагет узнать курс валют, при помощи запроса к API "Privat Bank".
